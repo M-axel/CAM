@@ -48,7 +48,19 @@ Ce réseau possède déjà une architecture qui permet de créer la visualisatio
 
 ## Expérimentations
 
-TODO
+Afin d'expérimenter avec ces visualisations, nous pouvons lui soumettre des images ambiguës.
+
+|Features map|Heatmap|Observation|
+|---|---|---|
+|![](/results/feature-maps-cat-pinguin-1.jpg.png)|![](/results/combined-maps-cat-pinguin-1.jpg.png)|Mauvaise prédiction, la heatmap nous confirme que le chat et le manchot n'ont pas été les éléments determinant: le réseau a donné plus d'importance aux bords de l'image|
+|![](/results/feature-maps-cat-pinguin-2.jpg.png)|![](/results/combined-maps-cat-pinguin-2.jpg.png)|Cette seconde image est la même que la précédente, à la différence qu'elle est cadrée un peu plus sur les pattes du manchot. Même conclusion que la précédente.|
+|![](/results/feature-maps-cheval-zebre.jpeg.png)|![](/results/combined-maps-cheval-zebre.jpeg.png)|Majoritaire zèbre, le réseau s'est en effet concentré sur le cou et le ventre de l'animal. Les parties qui auraient pu confirmer que c'était un cheval (pattes et museau) n'ont pas été regardées.|
+|![](/results/feature-maps-elephant-butterfly.png.png)|![](/results/combined-maps-elephant-butterfly.png.png)|La prédiction est plutôt mauvaise mais on constate que le réseau a ignoré les ailes de papillon.|
+|![](/results/feature-maps-elephant-duck.jpeg.png)|![](/results/combined-maps-elephant-duck.jpeg.png)|Bonne prédiction. Le bec de canard a été ignoré.|
+|![](/results/feature-maps-hedgehog-eagle.jpeg.png)|![](/results/combined-maps-hedgehog-eagle.jpeg.png)|Il s'agit plus d'un hérisson plutôt que d'un porc-épic, cependant la map montre bien que ce qui a été important dans la prédiction a été le haut de la tête et pas du tout le bec d'aigle.|
+|![](/results/feature-maps-mug-telephone.jpg.png)|![](/results/combined-maps-mug-telephone.jpg.png)|Je pensais que cette image, avec son manque de contrast (blanc sur blanc), aurait donné plus de fils à retordre. Mug à 92% grâce à la anse.|
+|![](/results/feature-maps-object-collection.jpg.png)|![](/results/combined-maps-object-collection.jpg.png)|Sur celle-ci, pas grand chose à conclure.|
+|![](/results/feature-maps-tutle-sandwitch.jpg.png)|![](/results/combined-maps-tutle-sandwitch.jpg.png)|Le haut de la carapace et le bas ont été les caractéristiques les plus importantes pour la prédiction.|
 
 ## Ressources
 
