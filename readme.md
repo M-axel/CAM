@@ -62,6 +62,10 @@ Afin d'expérimenter avec ces visualisations, nous pouvons lui soumettre des ima
 |![](/results/feature-maps-object-collection.jpg.png)|![](/results/combined-maps-object-collection.jpg.png)|Sur celle-ci, pas grand chose à conclure.|
 |![](/results/feature-maps-tutle-sandwitch.jpg.png)|![](/results/combined-maps-tutle-sandwitch.jpg.png)|Le haut de la carapace et le bas ont été les caractéristiques les plus importantes pour la prédiction.|
 
+## Conlusion
+
+Les deux premieres images que j'ai présenté dans la partie 'expérimentations' me semblent les plus importantes. Notre heatmap agit comme un réseau d'object recognition: il marque ce qui lui a permit de classifier ce qu'il voit. Si l'on constate que la heatmap est en dehors du sujet que l'on veut prédire, il est évident que la prédiction ne peut pas être bonne. 
+
 ## Ressources
 
 Une bonne partie de la technique provient de l'article médium:
